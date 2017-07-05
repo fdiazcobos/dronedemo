@@ -7,5 +7,5 @@ pipeline:
   publish: 
     image: plugins/docker
     repo: fdiazcobos/dronedemo
-    tag: latest
+    tags: latest
     secrets: [ docker_username, docker_password ]
