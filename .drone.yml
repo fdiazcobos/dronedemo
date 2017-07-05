@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: node
+    image: node:8.1-alpine
     commands:
       - npm install
 
