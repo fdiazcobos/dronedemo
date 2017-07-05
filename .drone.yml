@@ -1,0 +1,10 @@
+pipeline:
+  build:
+    imagen: node:8.1-alpine
+    commands: npm install
+
+  publicar:
+    imagen: plugins/docker
+    tags: latest
+    repo: fdiazcobos/dronedemo
+    secrets: [ docker_password, docker_username]
