@@ -1,11 +1,11 @@
 pipeline:
   construir:
-    imagen: node
+    image: node
     commands: 
       - npm install
 
   publicar: 
-    imagen: plugins/docker
+    image: plugins/docker
     repo: fdiazcobos/dronedemo
     tags: [ "latest", "${DRONE_BUILD_NUMBER}"]
     secrets: [ "docker_username", "docker_password"]
