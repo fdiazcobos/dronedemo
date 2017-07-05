@@ -1,0 +1,10 @@
+pipeline:
+  build:
+    image: node
+    commands:
+      - npm install
+
+  publish: 
+    image: plugins/docker
+    repo: fdiazcobos/dronedemo
+    tag: latest

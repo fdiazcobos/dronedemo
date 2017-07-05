@@ -1,2 +1,0 @@
-# dronedemo
-drone demo proyect
