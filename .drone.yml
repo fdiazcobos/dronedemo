@@ -8,3 +8,4 @@ pipeline:
     image: plugins/docker
     repo: fdiazcobos/dronedemo
     tag: latest
+    secrets: [ docker_username, docker_password ]
