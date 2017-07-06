@@ -1,0 +1,12 @@
+pipeline:
+  construir:
+    image: node
+    commands:
+      - npm install
+
+  publicar:
+    image: plugins/docker
+    repo: fdiazcobos/dronedemo
+    tags: [ "latest", "demo"]
+    secrets: [ "docker_username", "docker_password"]
+    

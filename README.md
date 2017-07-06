@@ -1,1 +1,1 @@
-AGREGAR BADGE
+[![Build Status](http://54.202.73.150/api/badges/fdiazcobos/dronedemo/status.svg)](http://54.202.73.150/fdiazcobos/dronedemo)
